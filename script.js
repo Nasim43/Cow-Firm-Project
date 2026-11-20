@@ -200,5 +200,25 @@ if (whatsappLink && !whatsappNumber.includes('X')) {
     .software-download {
         font-size: 15px;
     }
+.download-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 12px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255,255,255,0.85);
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.download-btn:hover {
+    background: rgba(255,255,255,0.12);
+    border-color: white;
+}
+
 
 }
